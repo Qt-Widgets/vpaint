@@ -90,6 +90,10 @@ else:unix {
 ###############################################################################
 #                            APP SOURCE FILES
 
+CONFIG += c++11
+LIBS += -lopengl32
+LIBS += -lglu32
+
 HEADERS += MainWindow.h \
     SaveAndLoad.h \
     Picking.h \
