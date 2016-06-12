@@ -8,6 +8,10 @@
 
 QT       -= core gui
 
+CONFIG += c++11
+LIBS += -lopengl32
+LIBS += -lglu32
+
 TARGET = GLEW
 TEMPLATE = lib
 CONFIG += staticlib
